@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formulario con controladores clásicos</h1>
+    </header>
+
+    <main>
+        <form class="style-container">
+            <fieldset class="style-container1">
+                <legend>Botones</legend>
+                <label for="">Campo de texto:</label>
+                <input type="text" name="" id="">Puedes Colocar el texto aqui<br>
+                <label for="">Area de texto:</label>
+                <textarea name="" id="">Puedes colocar texto multilinea</textarea><br>
+                <label for="">Campo para contraseña:</label>
+                <input type="password" name="" id="">
+
+            </fieldset>
+
+            <fieldset class="style-container2">
+                <legend>Controles de selección</legend>
+                <label for="">Lista de seleccion simple(tipo combo):</label>
+                <select name="Mascota">
+                    <option>Perro</option>
+                    <option>Gato</option>
+                    <option>Roedor</option>
+                </select>
+                <label for="">Lista de seleccion simple:</label>
+                <select name="Mascota2" size="4">
+                    <option>Perro</option>
+                    <option>Gato</option>
+                    <option>Roedor</option>
+                </select>
+                <label for="">lista de seleccion multiple:</label>
+                <select name="Mascota3" size="4" multiple>
+                    <option>Perro</option>
+                    <option>Gato</option>
+                    <option>Roedor</option>
+                </select><br>
+                    <label for="">Lista de botones de radio:</label>
+                        <input type="radio"
+                        id="perro"
+                        name="tipo_mascota"
+                        value="1"/>
+                    <label for="perro">Perro</label>
+                        <input type="radio"
+                        id="gato"
+                        name="tipo_mascota"
+                        value="2"/>
+                    <label for="gato">Gato</label>
+                        <input type="radio"
+                        id="roedor"
+                        name="tipo_mascota"
+                        value="3"/>
+                    <label for="roedor">Roedor</label>
+                    <br>
+
+                    <label for="">Lista de cajas (checkbox):</label>
+                        <input type="checkbox"
+                        id="chico"
+                        name="tam_chico"
+                        value="1"/>
+                    <label for="chico">Chico</label>
+                        <input type="checkbox"
+                        id="mediano"
+                        name="tam_mediano"
+                        value="2"/>
+                    <label for="mediano">Mediano</label>
+                        <input type="checkbox"
+                        id="grande"
+                        name="tam_grande"
+                        value="3"/>
+                    <label for="roedor">Roedor</label>
+
+            </fieldset>
+
+            <fieldset class="style-container3">
+                <legend>Botones</legend>
+                <input type="submit"
+                id="envía"
+                value="Enviar informacion" />
+
+                <input type="reset"
+                id="borra"
+                value="Borrar informacion"/>
+
+                <input type="button"
+                id="botón"
+                value="Botón" />
+
+
+            </fieldset>
+
+            <fieldset class="style-container4">
+                <legend>Otros</legend>
+                <label for="">Imagen:</label>
+                <input type="image id="imagen"
+                src="img_boton.jpg"
+                alt="imagen como botón" />
+
+                <label>Aqui otro contolador ocultp(hidden)</label>
+                <input type="hidden"
+                id="oculto"
+                value="Borrar información" />
+            </fieldset>
+        </form>
+    </main>
+
+</body>
+</html>
